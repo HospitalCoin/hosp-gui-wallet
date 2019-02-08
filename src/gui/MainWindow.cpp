@@ -118,7 +118,7 @@ void MainWindow::connectToSignals() {
 }
 
 void MainWindow::initUi() {
-  setWindowTitle(QString(tr("HospitalCoin Wallet v2.0.0")).arg(Settings::instance().getVersion()));
+  setWindowTitle(QString(tr("HospitalCoin Wallet v3.0.0")).arg(Settings::instance().getVersion()));
 #ifdef Q_OS_WIN32
   createTrayIcon();
 #endif

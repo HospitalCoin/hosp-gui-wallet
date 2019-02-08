@@ -84,7 +84,7 @@ void Settings::load() {
   }
 
   QStringList defaultPoolList;
-  defaultPoolList << "89.42.211.155:8117";
+  defaultPoolList << "85.10.248.62:8117";
   if (!m_settings.contains(OPTION_MINING_POOLS)) {
     setMiningPoolList(QStringList() << defaultPoolList);
   } else {
@@ -98,7 +98,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "89.42.210.190:8349" << "206.189.13.50:8349" << "138.68.242.140:8349" << "178.128.41.176:8348";
+  defaultNodesList << "89.42.210.190:8349" << "89.42.211.155:8349";
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {

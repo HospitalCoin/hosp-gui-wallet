@@ -2,4 +2,4 @@
 set(CN_PROJECT_NAME "HospitalWallet")
 set(CN_CURRENCY_DISPLAY_NAME "HospitalCoin")
 set(CN_CURRENCY_TICKER "HOSP")
-set(CN_VERSION 2.0.0)
+set(CN_VERSION 3.0.0)
